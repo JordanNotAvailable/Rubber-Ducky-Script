@@ -61,6 +61,6 @@ If you'd like to learn more on what went into making this and why this was made 
 
 [Report](https://docs.google.com/document/d/11v9DsLdA6I8pWnMSogHNkjHGFHQrAHn4/edit?usp=sharing&ouid=102308007870382689533&rtpof=true&sd=true)
 
-[Video]()
+[Video](https://drive.google.com/file/d/1oXmxXY7VOEZm_JRWWXC9f0B3EW45M8bU/view)
 
 [Extra Info](https://www.youtube.com/watch?v=xvFZjo5PgG0)

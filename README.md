@@ -2,7 +2,17 @@
 
 ## **Description**
 
-This is a script meant to be used on a Rubber Ducky device to simulate a USB Drop Attack. This was made in the view of an IT Securty team that had recently completed security training and is doing this simulated attack to test how successful the training was by reviewing the data and information gathered to further improve training. The thought was taking a Red Team tool and adapting it to suit a Blue oriented task to further develop security awareness, can't let Red Team have all the fun! It is encouraged for you to use and build upon this script and see where experimenting and testing takes you. This is only to be used is situations where consent is given.
+This is a script meant to be used on a Rubber Ducky device to simulate a USB Drop Attack. 
+
+This was made in the view of an IT Security team that had recently completed cybersecurity training and is doing this simulated attack in office to test how successful the training was by reviewing the data and information gathered to further improve training. This works by adding this script onto a raspberry pi pico and giving it casing to mirror a standard USB and to then leave it near work stations and common areas around the workplace, once this is plugged in it will have a 1.5 second delay to then instantly grabbing the ip, MAC address, username, if user has admin privileges and the exact date and time it was plugged in. The only thing the employee will see is a fullscreen red form giving a description on whats happened and how to close the form, this screen can not be closed by any way other than the desired input for us we set it to 'WHOOPS' so alt+f4, whoops or anything else other than all capital WHOOPS will display an error message but even if the employee managed to find a way to close this the information is already grabbed and sent to a folder on the IT system for analysis to see how security training can be improved. 
+
+This script is designed to match any size monitor and recognises both key entry and button click entry and will respond to being force closed, there are mitigations you can set in place like restriction of running scripts and what devices can be plugged into a computer but keep in mind this device is recognised by the computer as a human input or keyboard and will bypass and force its way through most things.
+
+The thought was taking a Red Team tool and adapting it to suit a Blue oriented task to further develop security awareness by giving them a face to face with the threat to eliminate the thought "Oh it would never happen to me". 
+
+It is encouraged for you to use and build upon this script and see where experimenting and testing takes you. 
+
+This is only to be used is situations where consent is given.
 
 ---
 ## **Table of Contents**
